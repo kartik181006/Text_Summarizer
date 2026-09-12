@@ -2,14 +2,4 @@ Text Summarizer is an AI/NLP-based web application that automatically converts l
 
 The application is developed using Python, FastAPI, Hugging Face Transformers, PyTorch, HTML, CSS, and JavaScript. FastAPI provides the backend API, while the HTML/CSS/JavaScript frontend allows users to enter or paste text and receive the generated summary directly on the webpage.
 
-Technologies Used:
-
-  Technology	                    Purpose
- 
-  Python	                        Core programming
-  T5 Transformer	                Text summarization
-  Hugging Face Transformers	      Model loading and inference
-  PyTorch                        	Deep learning framework
-  FastAPI	                        Backend/API
-  HTML & CSS                    	Frontend/UI
-  JavaScript	                    Connecting frontend with API
+This project is built using Python as the core programming language, with Hugging Face Transformers and the T5 (Text-to-Text Transfer Transformer) model for generating concise and meaningful summaries. PyTorch is used for deep learning model execution and inference, while FastAPI is used to develop the backend and provide REST API endpoints for communication between the frontend and the summarization model. The user interface is developed using HTML and CSS, with JavaScript used to handle user input, send requests to the backend, and display the generated summary dynamically. Jinja2 is used for rendering the HTML template, and Uvicorn is used as the ASGI server to run the FastAPI application.
